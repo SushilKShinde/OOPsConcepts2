@@ -11,14 +11,14 @@ namespace OOPsConcepts2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the oops concepts");
-            // Polymorphism
-            //Polymorphism polymorphism = new Polymorphism(); 
-            Console.WriteLine("Enter double value");
-            double a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter double value");
-            double b = Convert.ToDouble(Console.ReadLine());
-            Polymorphism.Addition(a, b);
-            Console.ReadLine();
+            //Polymorphism- Method Overriding
+           //create object of base class 
+            Animal animal = new Animal();
+            animal.Run();
+            //create object of child class
+            Dog dog = new Dog();    
+            dog.Run();
+
         }
     }
 }
