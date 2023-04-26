@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOPsConcepts2
 {
-    public class Animal //Base class/Parent class
+    abstract class Animal //Base class/Parent class
     {
-        public virtual void Run()
+        // Abstract method (does not have a body)
+        public abstract void AnimalSound();
+        public void Run()
         {
             Console.WriteLine("Every animal can run");
         }

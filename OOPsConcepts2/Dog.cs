@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace OOPsConcepts2
 {
-    public class Dog:Animal // derived class
+     class Dog:Animal // derived class
     {
-        public override void Run() //overrides the base class method
+        //Derived class (inherit from Animal)
+        public override void AnimalSound()
         {
-            Console.WriteLine("Dog can run faster");
+            // The body of animalSound() is provided here
+            Console.WriteLine("Dog says Bhoo Bhoo");    
         }
     }
 }
