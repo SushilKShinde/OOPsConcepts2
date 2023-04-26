@@ -11,18 +11,14 @@ namespace OOPsConcepts2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the oops concepts");
-            //Encapsulation
-            Person person = new Person();
-            //person.setName("sushil");
-            //person.getName();
-            //person.setAge(21);
-            //person.getAge();
-
-            //private variables are accessed by method or properties
-            person.age = 23;
-            person.getName = "Sushil";
-            Console.WriteLine($"Person's age is {person.getAge}");
-            Console.WriteLine($"Person's name is {person.getName}");
+            // Polymorphism
+            //Polymorphism polymorphism = new Polymorphism(); 
+            Console.WriteLine("Enter double value");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter double value");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Polymorphism.Addition(a, b);
+            Console.ReadLine();
         }
     }
 }
