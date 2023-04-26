@@ -11,6 +11,14 @@ namespace OOPsConcepts2
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the oops concepts");
+            PartTimeEmp partTimeEmp = new PartTimeEmp();
+            partTimeEmp.empName = "Sushil";
+            FullTimeEmp fullTimeEmp = new FullTimeEmp();
+            fullTimeEmp.empName = "Sachin";
+
+            fullTimeEmp.EmployeeDetails();
+ 
+            Console.WriteLine(fullTimeEmp.empName);
         }
     }
 }
