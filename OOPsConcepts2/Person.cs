@@ -25,27 +25,5 @@ namespace OOPsConcepts2
             get { return age; }
             set { age = value; }
         }
-
-        //public void setName(string name) //method to set a name 
-        //{
-        //    this.name = name;
-        //}
-
-        //public  void getName() // method to get a name as output
-        //{
-        //    Console.WriteLine($"Person name is {this.name}");
-        //}
-
-        ////method to set a age 
-        //public void setAge(int age)
-        //{
-        //    this.age = age;
-        //}
-
-        //public void getAge() //method to get a age as output
-        //{
-        //    Console.WriteLine($"Person's age is {this.age}");
-        //}
-
     }
 }
